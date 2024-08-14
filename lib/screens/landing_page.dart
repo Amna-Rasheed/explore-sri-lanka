@@ -47,7 +47,7 @@ class LandingPage extends StatelessWidget {
                       Navigator.pushNamed(context, '/login');
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.orange.shade600, // Button color
+                      backgroundColor: Colors.orange.shade600, // Button color
                       padding: EdgeInsets.symmetric(
                           horizontal: 30.0, vertical: 15.0),
                       shape: RoundedRectangleBorder(

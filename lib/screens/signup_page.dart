@@ -46,7 +46,7 @@ class _SignUpPageState extends State<SignUpPage> {
             ElevatedButton(
               onPressed: _signup,
               style: ElevatedButton.styleFrom(
-                primary: Colors.teal.shade700,
+                backgroundColor: Colors.teal.shade700,
                 padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 15.0),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),
